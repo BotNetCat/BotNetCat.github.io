@@ -1,0 +1,12 @@
+body {
+	font-family: Comic Sans MS;
+	color: black;
+	margin: 5px;
+	padding: 5px;
+	background-color:black;
+	background-image: url(Pics/back7.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+
+}
