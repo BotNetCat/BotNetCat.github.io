@@ -1,0 +1,86 @@
+body {
+	font-family: Comic Sans MS;
+	color: black;
+	margin: 5px;
+	border:3px solid #8a8a8a;
+	padding: 5px;
+	background-color:white;
+	background-image: url(Pics/backsite.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:cover;
+
+}
+
+/*  colors #90ee90 #008b8b*/
+
+
+.rubyimage {
+	margin: auto;
+	border: 2px solid red;
+	border-radius: 8px;
+	width:250px; 
+	height:240px;
+}
+
+.pythonimage {
+	margin: auto;
+	border: 2px solid blue;
+	border-radius: 8px;
+	width:250px; 
+	height:250px;
+}
+
+.Headers {
+	text-align: center;
+	color: rgba(255, 99, 71, 1);
+}
+
+/* .................Navbar blayt.................. */
+
+.container {
+	display: grid;
+	grid-template-columns: 1fr;
+}
+
+.nav-wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	margin-bottom: 5px;
+	border: 3px solid #8a8a8a;
+	border-radius: 5px;
+	padding: 38px;
+
+}
+
+.left-side {
+	display: flex;
+}
+
+.nav-wrapper > .left-side > div {
+	margin-right: 20px;
+	font-size: 0.9em;
+
+}
+
+.nav-link-wrapper {
+	height: 22px;
+	border-bottom: 1px solid transparent;
+	transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+	color:#8a8a8a;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+	color: black;
+
+}
