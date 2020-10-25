@@ -52,7 +52,7 @@ body {
 }
 
 .nav-link-wrapper a {
-	color: rgba(255, 99, 71, 1);
+	color: black;
 	text-decoration: none;
 	transition: color 0.5s;
 }
